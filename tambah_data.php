@@ -9,5 +9,4 @@
 
     mysqli_query($conn, "INSERT INTO nilai (nim, kode_mk, nilai, thn_akademik) VALUES($nim, '$kode_mk', '$nilai', '$thn_akademik')");
   }
-  $q_tambah = mysqli_query($conn, "select nim, nm_mhs from m_mahasiswa");
 ?>
